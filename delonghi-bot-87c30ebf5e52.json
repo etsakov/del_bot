@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "delonghi-bot",
+  "private_key_id": "87c30ebf5e52aa05fcaa0a3e913b59ac2cfa3099",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCz4MZJTHVYrJMp\n8oDAf9XHRkNVEQSgcyLS9KJ9k9Nti0kHpKXLeIPVzeQ6UQY+FtbHd3yDuDvNsS7u\nUsJZkqibrFeuS6wKY0q1iwsPcufj+LMELQ8RijyO2/70FmRfji+qvgRcI6HB6voc\nn7z/LNq8v0pi40j66iNPo9jy7KPisaBoWW3VF3w2ITGSL4P4uKpGl9Ot8LJeCkcn\n6zkAeyo6DWs4HltgTGJ3cf1rLlTUvQR9+pggQjvFCAdSepTLC6ouAsCV8ZTq6ozg\n5I4kojHVQpDUSzxkZi0NrmTlL8PAA2+0whefQxgjlx2D847AfVFyiOWSc70BQsHh\ng6gst4AZAgMBAAECggEADnA56lNJTgtYKrNM82avdbXlnLPnf6uOPYmma1cMzwux\nmnv0VO9BAc3rhmTPj/dMWSl1pKsKndmdj0K0V/VGNGyygwqO7iyHKChXhG9wPqPN\nVsX5IirK7pqpDdWoS+VBXT6wYeb4SnT+i4Kk7ISgsCrYoTRmPMHDgNaBiQpGo2EE\n5ne/iQFvQ9Ng9WgGVhXUURdDUHuf6jZsr+11vUvIhL3SnQ5lY+UgLI635DZmp3/O\nkJL/1wTeQgb/kLlUXIKlyL2bmgIyxQtmwq8J4dacxsB8QmlB5hYTESG/fpvOX3EJ\nfmC+kDixHqhNaNVSPnZznmGRcNQcNjJ4AyVahfKTCwKBgQD0QuAmyW1P/t/2qoe5\neBxZJROSPV7YqCbYI/lQOgdNdMzNTpDfBLnXLAV3QOKnn+WZ65b9mMSfhWLnqG5j\nHRmDAiS3Agu6lw7m47oUGOVhOUXnXAAYIbqKcx8cuu2HPZvAkm6BuZExRThz2xBa\n771co5L2F3McD8RJYbfXc/ubXwKBgQC8hcxMlLrgNqO2nucXgjuZ0LrDuidN57RU\nytqwKnUKE3bP2RqEsIQDro8UExGBK3m1pImwFja3h7qnO6IA+Vnqd72cMswk95sg\n75Lumn7PhV6ZUXuSeA6J2QeZUfqN6cXgp4jBIyuSLN6ZQM6dECZ22SvQ2eVZqLtQ\nyIgpz9IPhwKBgFSelmjZfzUnZw9dJIfsRGXdoloXSLRmDI70Z3qTn9QFkq3NegLI\n8FjKt1oI8HyBuFkKdNSGCBf7bbgzcYqEmkH4jB+aZdXOXys92Uj9FvoHjWAJTz8M\n8ELmfvDFEWS4wyyDjiUC1HntMRFx4sieJUvinxcCKK6gB7AkWjwZwiChAoGAQAHB\ncoLQzA1hGkDrPx0VdUzcDFYowBeaL2vMQiG4KRqgrUMN8N0phUKAC5XJzKxhH13k\n7actHrTzl5H0mBYRBD1xYBYTH739qnoMzfwgb/7dNnrm1Lz0WrMYFGM0CXjEmVjo\nYoK5aWDYlvnc7JCuLo3fhYJlj0Jtjqj3KhMIRAMCgYBFFZmL3N3Vu4iGuHs8KE5k\ni1cRyrpQ/TUVU7b7654+Zb7KnvtP+zALqO3WUXvzOPqPipjFgJvrJz+L7xanE4Gt\nPXBBMnSbkYGA+y6oK9EbeId7b3SfMsWRqfipFLyX3ZIiTMxN2qHPRd/YKAFvj47l\n/JnerrB5hk9ueR88h4b91A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "delonghi-bot@delonghi-bot.iam.gserviceaccount.com",
+  "client_id": "110946534547394971988",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/delonghi-bot%40delonghi-bot.iam.gserviceaccount.com"
+}
