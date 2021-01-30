@@ -1,6 +1,7 @@
 from datetime import datetime
 from glob import glob
 import logging
+import pickle
 import random
 import time
 
@@ -10,7 +11,6 @@ from telegram.ext.dispatcher import run_async
 
 from settings import API_KEY
 from user_enquette import start_user_enquette, user_enquette_full_name, user_enquette_department
-from metrics_monitor import get_metrics_analytics
 
 '''
 Spreadsheet is available on the following link:
@@ -69,17 +69,19 @@ def get_picture_and_text(marker):
 @run_async
 def generate_metrics_report(update, context):
     # Distributes metrics annoucement
-    # HAS TO BE REFACTORED IF LIVE
 
     update.message.reply_text("Отлично! Теперь тебе сюда будут приходить оповещения о метриках")
 
     while True:
-        report = get_metrics_analytics()
-        print(report)
+
+        # Establish connection to pickle file where data is updated
+        with open("data", "rb") as p_file:
+            report = pickle.load(p_file)
+        print("REPORT:\n\n", report, "\n\n")
 
         time_now = datetime.now()
         today_10am = time_now.replace(hour=10, minute=0, second=0, microsecond=0)
-        today_21am = time_now.replace(hour=21, minute=0, second=0, microsecond=0)
+        today_21am = time_now.replace(hour=22, minute=0, second=0, microsecond=0)
 
         if time_now < today_10am or time_now > today_21am:
             sleep_var = "\nDO NOT DISTURB mode is ON\n***"
@@ -113,10 +115,13 @@ def generate_metrics_report(update, context):
 
         # informs us whether it is night time and "DO NOT DESTURB" mode is ON
         print("\n***\nTIME NOW: {}\n{}***\n".format(time_now, sleep_var))
+
         time.sleep(3)
 
 
 def main():
+    # Here cointains the main loop of the programm
+
     mybot = Updater(API_KEY, use_context=True)
 
     dp = mybot.dispatcher
